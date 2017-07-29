@@ -17,7 +17,7 @@ header{
 	padding: 0;
 	display: flex;
 	list-style-type: none;
-	justify-content: space-between;
+	justify-content: space-atound;
 	height: 100%;
 }
 
