@@ -38,6 +38,8 @@ header{
 	padding: 0px;
 	list-style-type: none;
 	display: none;
+	border: 1px solid blue;
+	border-radius: 10px;
 }
 
 
