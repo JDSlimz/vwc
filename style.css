@@ -17,6 +17,10 @@ header{
 #menu-burger{
 	display: none;
 	color: black;
+	flex: 1;
+	align-self: end;
+	align-content: center;
+	justify-content: center;
 }
 
 @media (max-width: 815px) {
@@ -24,7 +28,7 @@ header{
     display: none;
   }
   #menu-burger{
-	  display: block;
+	  display: flex;
   }
 }
 

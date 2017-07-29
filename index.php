@@ -21,7 +21,7 @@
 				'container_class' => 'header-menu' ) ); 
 			?>
 			
-			<i class="im im-menu"></i>
+			<i id="menu-burger" class="im im-menu"></i>
 		</header>
 
 		<h2>GIF GOES HERE!</h2>
