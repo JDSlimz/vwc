@@ -19,6 +19,8 @@
 				'theme_location' => 'header', 
 				'container_class' => 'header-menu' ) ); 
 			?>
+			
+			<span id="menu-burger" class="dashicons dashicons-menu"></span>
 		</header>
 
 		<h2>GIF GOES HERE!</h2>

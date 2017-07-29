@@ -14,9 +14,16 @@ header{
 	min-width: 670px;
 }
 
-@media (max-width: 800px) {
+#menu-burger{
+	display: none;
+}
+
+@media (max-width: 815px) {
   .header-menu {
     display: none;
+  }
+  #menu-burger{
+	  display: block;
   }
 }
 
