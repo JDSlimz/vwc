@@ -16,6 +16,7 @@ header{
 
 #menu-burger{
 	display: none;
+	color: black;
 }
 
 @media (max-width: 815px) {
