@@ -3,7 +3,7 @@
 
 	<head>
 		<title><?php echo get_bloginfo('name'); ?></title>
-		<link href="<?php echo get_bloginfo('template_directory'); ?>/fonts/iconmonstr/iconmonstr-iconic-font.min.css" rel="stylesheet">
+		<link href="<?php echo get_bloginfo('template_directory'); ?>/fonts/iconmonstr/css/iconmonstr-iconic-font.min.css" rel="stylesheet">
 		<link href="<?php echo get_bloginfo('template_directory'); ?>/style.css" rel="stylesheet">
 	</head>
 
