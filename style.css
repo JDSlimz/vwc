@@ -16,6 +16,11 @@ header{
 #menu-social-links-menu{
 	padding: 0;
 	display: flex;
+	list-style-type: none;
+}
+
+#menu-social-links-menu > li{
+	margin: 10px;
 }
 
 h1{
