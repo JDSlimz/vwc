@@ -39,8 +39,8 @@ header{
 
 @media (max-width: 815px) {
   .header-menu {
-    width: 0;
-	visibility: hidden;
+    visibility: hidden;
+	width: 0;
 	-webkit-transition: width .5s, visibility .5s; /* For Safari 3.1 to 6.0 */
 	transition: width .5s, visibility .5s;
   }
