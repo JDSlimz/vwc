@@ -32,6 +32,7 @@ header{
 
 #menu-top-menu > li:hover > .sub-menu{
 	display: flex;
+	position: absolute;
 }
 
 .sub-menu{
