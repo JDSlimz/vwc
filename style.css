@@ -81,13 +81,13 @@ header{
 	  flex-direction: column;
   }
   
-  #menu-toggle:checked ~ #menu-close{
+  #menu-toggle:checked #menu-close{
 	opacity: 1;
 	transition: opacity .25s ease-in-out;
 	-moz-transition: opacity .25s ease-in-out;
     -webkit-transition: opacity .25s ease-in-out;
   }
-  #menu-toggle:checked ~ #menu-burger{
+  #menu-toggle:checked #menu-burger{
 	opacity: 0;
 	transition: opacity .25s ease-in-out;
 	-moz-transition: opacity .25s ease-in-out;
