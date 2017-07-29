@@ -16,13 +16,16 @@
 				the_custom_logo();
 			}
 			
-			wp_nav_menu( array( 
-				'theme_location' => 'header', 
-				'container_class' => 'header-menu' ) ); 
 			?>
 			
 			<i id="menu-burger" class="im im-menu"></i>
 			<input id="menu-toggle" type="checkbox" />
+			
+			<?php
+			wp_nav_menu( array( 
+				'theme_location' => 'header', 
+				'container_class' => 'header-menu' ) ); 
+			?>
 		</header>
 
 		<h2>GIF GOES HERE!</h2>

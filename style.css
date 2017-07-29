@@ -48,7 +48,7 @@ header{
     right: 10px;
     top: 10px;  
   }
-  #menu-toggle:checked .header-menu{
+  #menu-toggle:checked ~ .header-menu{
 	  display: flex;
 	  flex-direction: column;
   }
