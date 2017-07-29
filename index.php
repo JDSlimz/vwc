@@ -19,6 +19,7 @@
 			?>
 			
 			<i id="menu-burger" class="im im-menu"></i>
+			<i id="menu-close" class="im im-x-mark"></i>
 			<input id="menu-toggle" type="checkbox" />
 			
 			<?php

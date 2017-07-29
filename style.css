@@ -33,6 +33,10 @@ header{
 	cursor: pointer;
 }
 
+#menu-close{
+	display: none;
+}
+
 @media (max-width: 815px) {
   .header-menu {
     display: none;
@@ -42,12 +46,27 @@ header{
 	position: absolute;
     right: 10px;
     top: 10px;
+	opacity: 1;
+	transition: opacity .25s ease-in-out;
+	-moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+  }
+  #menu-close{
+	display: block;
+	opacity: 0;
+	position: absolute;
+    right: 10px;
+    top: 10px;
+	transition: opacity .25s ease-in-out;
+	-moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
   }
   #menu-toggle{
 	display: block;
 	position: absolute;
     right: 10px;
     top: 10px;  
+	z-index: 2;
   }
   #menu-toggle:checked ~ .header-menu{
 	  display: block;
@@ -60,7 +79,19 @@ header{
   
   #menu-toggle:checked ~ .header-menu > #menu-top-menu{
 	  flex-direction: column;
-	  
+  }
+  
+  #menu-toggle:checked ~ #menu-close{
+	opacity: 1;
+	transition: opacity .25s ease-in-out;
+	-moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+  }
+  #menu-toggle:checked ~ #menu-burger{
+	opacity: 0;
+	transition: opacity .25s ease-in-out;
+	-moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
   }
 }
 
