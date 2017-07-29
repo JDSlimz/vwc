@@ -21,6 +21,7 @@ header{
 	justify-content: space-around;
 	align-items: center;
 	height: 100%;
+	flex-wrap: wrap;
 }
 
 #menu-top-menu > li{
@@ -30,8 +31,6 @@ header{
 
 #menu-top-menu > li:hover > .sub-menu{
 	display: flex;
-	flex-direction: column;
-	z-index: 25;
 }
 
 .sub-menu{
@@ -41,6 +40,8 @@ header{
 	display: none;
 	border: 1px solid blue;
 	border-radius: 10px;
+	flex-direction: column;
+	z-index: 25;
 }
 
 
