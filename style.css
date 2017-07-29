@@ -17,7 +17,8 @@ header{
 	padding: 0;
 	display: flex;
 	list-style-type: none;
-	justify-content: space-atound;
+	justify-content: space-around;
+	align-items: center;
 	height: 100%;
 }
 
