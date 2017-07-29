@@ -49,8 +49,12 @@ header{
     top: 10px;  
   }
   #menu-toggle:checked ~ .header-menu{
-	  display: flex;
+	  display: block;
+  }
+  
+  #menu-toggle:checked ~ .header-menu > #menu-top-menu{
 	  flex-direction: column;
+	  
   }
 }
 
