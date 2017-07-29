@@ -13,8 +13,12 @@
 		<header>
 			<?php if ( function_exists( 'the_custom_logo' ) ) {
 				the_custom_logo();
-			} ?>
-			<?php wp_nav_menu(); ?>
+			}
+			
+			wp_nav_menu( array( 
+				'theme_location' => 'header', 
+				'container_class' => 'header-menu' ) ); 
+			?>
 		</header>
 
 		<h2>GIF GOES HERE!</h2>
