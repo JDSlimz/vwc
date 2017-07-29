@@ -9,6 +9,11 @@ function themename_custom_logo_setup() {
         'header-text' => array( 'site-title', 'site-description' ),
     );
     add_theme_support( 'custom-logo', $defaults );
+	
+	register_nav_menus( array( 
+		'header' => 'Header menu', 
+		'footer' => 'Footer menu' 
+	  ) );
 }
 add_action( 'after_setup_theme', 'themename_custom_logo_setup' );
 
