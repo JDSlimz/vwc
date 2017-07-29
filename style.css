@@ -42,8 +42,8 @@ header{
     opacity: 0;
 	width: 30%;
 	overflow: hidden;
-	-webkit-transition: width .5s, opacity .5s; /* For Safari 3.1 to 6.0 */
-	transition: width .5s, opacity .5s;
+	-webkit-transition: opacity .5s; /* For Safari 3.1 to 6.0 */
+	transition: opacity .5s;
   }
   #menu-burger{
 	display: block;
@@ -74,14 +74,13 @@ header{
   }
   #menu-toggle:checked ~ .header-menu{
 	  opacity: 1;
-	  width: 30%;
 	  flex: 0;
 	  min-width: 0;
 	  position: absolute;
 	  top: 30%;
 	  right: 0;
-	  -webkit-transition: width .5s, opacity .5s; /* For Safari 3.1 to 6.0 */
-	  transition: width .5s, opacity .5s;
+	  -webkit-transition: opacity .5s; /* For Safari 3.1 to 6.0 */
+	  transition: opacity .5s;
   }
   
   #menu-toggle:checked ~ .header-menu > #menu-top-menu{
