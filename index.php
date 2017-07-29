@@ -21,10 +21,8 @@
 				'container_class' => 'header-menu' ) ); 
 			?>
 			
-			<div id="menu-burger">
-				<i class="im im-menu"></i>
-				<input id="menu-toggle" type="checkbox" />
-			</div>
+			<i id="menu-burger" class="im im-menu"></i>
+			<input id="menu-toggle" type="checkbox" />
 		</header>
 
 		<h2>GIF GOES HERE!</h2>

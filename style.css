@@ -20,10 +20,6 @@ header{
 
 #menu-burger{
 	display: none;
-	color: black;
-	flex: 4;
-	align-content: center;
-	justify-content: end;
 }
 
 #menu-toggle{
@@ -41,9 +37,6 @@ header{
     display: none;
   }
   #menu-burger{
-	  display: flex;
-  }
-  #menu-burger i{
 	position: absolute;
     right: 10px;
     top: 10px;
