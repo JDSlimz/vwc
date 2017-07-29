@@ -29,6 +29,10 @@ header{
 #menu-toggle{
 	display: none;
 	opacity: 1;
+	height: 24px;
+    width: 24px;
+    margin: 0;
+    padding: 0;
 }
 
 @media (max-width: 815px) {
@@ -38,9 +42,16 @@ header{
   #menu-burger{
 	  display: flex;
   }
+  #menu-burger i{
+	position: absolute;
+    right: 10px;
+    top: 10px;
+  }
   #menu-toggle{
-	  display: block;
-	  
+	display: block;
+	position: absolute;
+    right: 10px;
+    top: 10px;  
   }
 }
 
