@@ -55,6 +55,7 @@ header{
 	  min-width: 0;
 	  position: absolute;
 	  top: 30%;
+	  right: 0;
   }
   
   #menu-toggle:checked ~ .header-menu > #menu-top-menu{
