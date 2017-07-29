@@ -25,6 +25,7 @@ header{
 
 #menu-top-menu > li{
 	margin: 10px;
+	text-align: center;
 }
 
 #menu-top-menu > li:hover > .sub-menu{
