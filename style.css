@@ -11,6 +11,7 @@ header{
 
 .header-menu{
 	flex: 4;
+	min-width: 670px;
 }
 
 #menu-top-menu{
