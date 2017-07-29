@@ -11,7 +11,7 @@
 			<style>body{margin-top:40px;}</style>
 		<?php } ?>
 		<header>
-			<h3>Logo goes here!</h3>
+			<h3>Logo goes here! n WILL!!</h3>
 			<?php wp_nav_menu(); ?>
 		</header>
 
