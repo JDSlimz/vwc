@@ -22,9 +22,13 @@ header{
 	display: none;
 	color: black;
 	flex: 4;
-	align-self: end;
 	align-content: center;
-	justify-content: center;
+	justify-content: end;
+}
+
+#menu-toggle{
+	display: none;
+	opacity: 1;
 }
 
 @media (max-width: 815px) {
@@ -33,6 +37,10 @@ header{
   }
   #menu-burger{
 	  display: flex;
+  }
+  #menu-toggle{
+	  display: block;
+	  
   }
 }
 

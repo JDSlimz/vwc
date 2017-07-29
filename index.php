@@ -23,6 +23,7 @@
 			
 			<div id="menu-burger">
 				<i class="im im-menu"></i>
+				<input id="menu-toggle" type="checkbox" />
 			</div>
 		</header>
 
