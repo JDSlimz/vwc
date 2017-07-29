@@ -14,6 +14,12 @@ header{
 	min-width: 670px;
 }
 
+@media (max-width: 669px) {
+  .header-menu {
+    display: none;
+  }
+}
+
 #menu-top-menu{
 	padding: 0;
 	display: flex;
