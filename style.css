@@ -46,6 +46,7 @@ header{
 	z-index: 25;
 	position: relative;
 	top: 100%;
+	width: auto;
 }
 
 
