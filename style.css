@@ -39,7 +39,9 @@ header{
 
 @media (max-width: 815px) {
   .header-menu {
-    display: none;
+    width: 0;
+	-webkit-transition: width .5s; /* For Safari 3.1 to 6.0 */
+	transition: width .5s;
   }
   #menu-burger{
 	display: block;
@@ -69,12 +71,14 @@ header{
 	z-index: 2;
   }
   #menu-toggle:checked ~ .header-menu{
-	  display: block;
+	  width: 30%;
 	  flex: 0;
 	  min-width: 0;
 	  position: absolute;
 	  top: 30%;
 	  right: 0;
+	  -webkit-transition: width .5s; /* For Safari 3.1 to 6.0 */
+	  transition: width .5s;
   }
   
   #menu-toggle:checked ~ .header-menu > #menu-top-menu{
