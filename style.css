@@ -17,11 +17,20 @@ header{
 	padding: 0;
 	display: flex;
 	list-style-type: none;
-	
 }
 
 #menu-top-menu > li{
 	margin: 10px;
+}
+
+#menu-top-menu > li:hover > .sub-menu{
+	display: block;
+}
+
+.sub-menu{
+	margin: 0px;
+	list-style-type: none;
+	display: none;
 }
 
 h1{
