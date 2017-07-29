@@ -9,18 +9,18 @@ header{
 	display: flex;
 }
 
-.menu-social-links-menu-container{
+.header-menu{
 	flex: 4;
 }
 
-#menu-social-links-menu{
+#menu-top-menu{
 	padding: 0;
 	display: flex;
 	list-style-type: none;
 	
 }
 
-#menu-social-links-menu > li{
+#menu-top-menu > li{
 	margin: 10px;
 }
 
