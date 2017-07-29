@@ -39,11 +39,11 @@ header{
 
 @media (max-width: 815px) {
   .header-menu {
-    visibility: hidden;
+    opacity: 0;
 	width: 30%;
 	overflow: hidden;
-	-webkit-transition: width .5s, visibility .5s; /* For Safari 3.1 to 6.0 */
-	transition: width .5s, visibility .5s;
+	-webkit-transition: width .5s, opacity .5s; /* For Safari 3.1 to 6.0 */
+	transition: width .5s, opacity .5s;
   }
   #menu-burger{
 	display: block;
@@ -73,15 +73,15 @@ header{
 	z-index: 2;
   }
   #menu-toggle:checked ~ .header-menu{
-	  visibility: visible;
+	  opacity: 1;
 	  width: 30%;
 	  flex: 0;
 	  min-width: 0;
 	  position: absolute;
 	  top: 30%;
 	  right: 0;
-	  -webkit-transition: width .5s, visibility .5s; /* For Safari 3.1 to 6.0 */
-	  transition: width .5s, visibility .5s;
+	  -webkit-transition: width .5s, opacity .5s; /* For Safari 3.1 to 6.0 */
+	  transition: width .5s, opacity .5s;
   }
   
   #menu-toggle:checked ~ .header-menu > #menu-top-menu{
