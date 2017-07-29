@@ -41,6 +41,7 @@ header{
   .header-menu {
     visibility: hidden;
 	width: 30%;
+	overflow: hidden;
 	-webkit-transition: width .5s, visibility .5s; /* For Safari 3.1 to 6.0 */
 	transition: width .5s, visibility .5s;
   }
