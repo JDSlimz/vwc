@@ -21,10 +21,12 @@ header{
 	justify-content: space-around;
 	align-items: center;
 	height: 100%;
+	position: relative;
 }
 
 #menu-top-menu > li{
 	margin: 10px;
+	position: absolute;
 }
 
 #menu-top-menu > li:hover > .sub-menu{
