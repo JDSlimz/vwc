@@ -27,6 +27,7 @@ header{
 #menu-top-menu > li{
 	margin: 10px;
 	text-align: center;
+	position: relative;
 }
 
 #menu-top-menu > li:hover > .sub-menu{
@@ -42,6 +43,8 @@ header{
 	border-radius: 10px;
 	flex-direction: column;
 	z-index: 25;
+	position: relative;
+	top: 100%;
 }
 
 
