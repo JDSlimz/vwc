@@ -21,7 +21,7 @@ header{
 #menu-burger{
 	display: none;
 	color: black;
-	flex: 1;
+	flex: 4;
 	align-self: end;
 	align-content: center;
 	justify-content: center;
