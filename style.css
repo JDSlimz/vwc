@@ -17,7 +17,7 @@ header{
 	padding: 0;
 	display: flex;
 	list-style-type: none;
-	align-content: space-around;
+	align-content: flex-end;
 }
 
 #menu-top-menu > li{
