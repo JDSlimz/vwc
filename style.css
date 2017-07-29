@@ -9,6 +9,10 @@ header{
 	display: flex;
 }
 
+.custom-logo-link{
+	flex: 1;
+}
+
 .header-menu{
 	flex: 4;
 	min-width: 670px;
