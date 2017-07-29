@@ -41,8 +41,8 @@ header{
   .header-menu {
     width: 0;
 	visibility: hidden;
-	-webkit-transition: width .5s; /* For Safari 3.1 to 6.0 */
-	transition: width .5s;
+	-webkit-transition: width .5s, visibility .5s; /* For Safari 3.1 to 6.0 */
+	transition: width .5s, visibility .5s;
   }
   #menu-burger{
 	display: block;
@@ -79,8 +79,8 @@ header{
 	  position: absolute;
 	  top: 30%;
 	  right: 0;
-	  -webkit-transition: width .5s; /* For Safari 3.1 to 6.0 */
-	  transition: width .5s;
+	  -webkit-transition: width .5s, visibility .5s; /* For Safari 3.1 to 6.0 */
+	  transition: width .5s, visibility .5s;
   }
   
   #menu-toggle:checked ~ .header-menu > #menu-top-menu{
