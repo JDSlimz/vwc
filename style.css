@@ -9,6 +9,15 @@ header{
 	display: flex;
 }
 
+.menu-social-links-menu-container{
+	flex: 4;
+}
+
+#menu-social-links-menu{
+	padding: 0;
+	display: flex;
+}
+
 h1{
   color: pink;
 }
