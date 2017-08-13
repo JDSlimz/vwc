@@ -165,4 +165,15 @@ h1{
     left: 0;
     right: 0;
     text-align: center;
+	display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-block {
+    width: 30%;
+    margin: 1%;
+    padding: 10% 0;
+    border: 1px solid black;
 }
