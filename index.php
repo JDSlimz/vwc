@@ -34,13 +34,24 @@
 		</div>
 		
 		<div id="content-body">
-			<?php
-			for($i=0;$i<4;$i++){ 
-				echo '<h1>Site under construction!</h1>';
-			}
-			?>
-
-			<?php get_footer(); ?>
+			<div class="home-block">
+				Block 1!
+			</div>
+			<div class="home-block">
+				Block 2!
+			</div>
+			<div class="home-block">
+				Block 3!
+			</div>
+			<div class="home-block">
+				Block 4!
+			</div>
+			<div class="home-block">
+				Block 5!
+			</div>
+			<div class="home-block">
+				Block 6!
+			</div>
 		</div>
 	</body>
 
