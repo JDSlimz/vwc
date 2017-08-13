@@ -53,7 +53,7 @@
 				Block 6!
 			</div>
 			
-			get_footer();
+			<?php get_footer(); ?>
 		</div>
 	</body>
 
