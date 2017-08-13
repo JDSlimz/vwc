@@ -52,6 +52,8 @@
 			<div class="home-block">
 				Block 6!
 			</div>
+			
+			get_footer();
 		</div>
 	</body>
 
