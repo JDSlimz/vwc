@@ -29,7 +29,7 @@
 			?>
 		</header>
 
-		<div>
+		<div id="head-gif">
 			<h2>GIF GOES HERE!</h2>
 		</div>
 		
