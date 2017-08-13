@@ -177,3 +177,10 @@ h1{
     padding: 10% 0;
     border: 1px solid black;
 }
+
+#content-footer{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
