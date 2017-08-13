@@ -29,7 +29,10 @@
 			?>
 		</header>
 
-		<h2>GIF GOES HERE!</h2>
+		<div>
+			<h2>GIF GOES HERE!</h2>
+		</div>
+		
 		<?php
 		for($i=0;$i<4;$i++){ 
 			echo '<h1>Site under construction!</h1>';
