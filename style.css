@@ -10,8 +10,6 @@ header{
 	position: fixed;
 	left: 0;
 	right: 0;
-	background-color: lightblue;
-    z-index: -5;
 }
 
 .custom-logo-link{
@@ -157,6 +155,8 @@ h1{
     right: 0;
     text-align: center;
     height: 70%;
+	background-color: lightblue;
+    z-index: -5;
 }
 
 #content-body{
