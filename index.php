@@ -52,10 +52,10 @@
 			<div class="home-block">
 				Block 6!
 			</div>
-		</div>
-		
-		<div id="content-footer">
+			
+			<div id="content-footer">
 			<?php get_footer(); ?>
+		</div>
 		</div>
 	</body>
 
